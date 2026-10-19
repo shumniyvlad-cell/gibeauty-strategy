@@ -100,6 +100,7 @@ p { margin: 0 0 1em; }
 .c-vk { --c: var(--leather-beige); }
 .c-pin { --c: var(--leather-white); }
 .c-pro { --c: var(--leather-brown); }
+.c-mp { --c: #8a5a44; }
 
 /* секции */
 
