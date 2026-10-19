@@ -370,3 +370,11 @@ footer p { max-width: 90ch; }
 }
 
 .palette > * { min-width: 0; }
+
+/* готовые тексты */
+.copies { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.copy { background: var(--paper); border-radius: 4px; padding: 28px 30px; border-left: 3px solid var(--burgundy); }
+.copy h3 { font-size: 19px; margin-bottom: 14px; color: var(--burgundy); }
+.copy p { font-size: 15px; margin-bottom: 0.7em; max-width: 60ch; }
+.nav a.bd { color: var(--camel); opacity: 1; }
+@media (max-width: 680px) { .copies { grid-template-columns: 1fr; } .copy { padding: 22px 20px; } }
